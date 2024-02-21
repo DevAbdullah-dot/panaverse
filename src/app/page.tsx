@@ -14,6 +14,7 @@ export default function Home() {
         {postdata.map(({ id, title, date }: Post) => (
           <>
             <div>
+              <h1>Main Page</h1>
               <br />
               <Link href="/data">{title}</Link>
               <br />
