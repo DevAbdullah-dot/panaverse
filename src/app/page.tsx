@@ -10,11 +10,11 @@ export default function Home() {
 
   return (
     <main className="flex min-h-screen flex-col items-center justify-between p-24">
+      <h1>Main Page</h1>
       <div>
         {postdata.map(({ id, title, date }: Post) => (
           <>
             <div>
-              <h1>Main Page</h1>
               <br />
               <Link href="/data">{title}</Link>
               <br />
