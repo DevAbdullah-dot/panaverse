@@ -15,8 +15,7 @@ export default async function postwithId({params}: {params: {id: string}}){
     const post = await getPostdata(id);
     return (
         <>
-        <div className="flex flex-col items-center justify-between p-24"
-        >
+        <div className="flex flex-col items-center justify-between p-24">
             <h1>{post?.title}</h1>
             <h1>{post?.date}</h1>
         </div>
